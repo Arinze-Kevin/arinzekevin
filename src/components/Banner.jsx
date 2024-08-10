@@ -46,8 +46,12 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi, I'm Arinze Kevin `}<span className="wrap">{text}</span></h1>
-                        <p>dgcfhjbfghbjnfgvhjfgvhbjnfgvnhmfvghbmjgbnhmbvgngnhmj</p>
-                        <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /> </button>
+                        <p>I build highly scalable and functional applications using various development tools and frameworks.</p>
+                        <button onClick={() => window.location.href = 'https://www.linkedin.com/in/arinzekevin'} style={{ border: 'none', background: 'none', padding: '0', cursor: 'pointer' }}>
+            <a href="https://www.linkedin.com/in/arinzekevin" style={{ textDecoration: 'none', color: 'inherit' }}>
+                Let's connect <ArrowRightCircle size={25} />
+            </a>
+        </button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header Img" />

@@ -32,22 +32,58 @@ export const Skills = () => {
                 <Row>
                     <Col>
                       <div className="skill-bx">
-                        <h2>
+                        <h1>
                             Skills
-                        </h2>
-                        <p>dfgcbhjnfgcbhjcfgvhbjnfgvbhjvgbhvgb nmghbbnmnbh</p>
+                        </h1>
+                        {/* <h3>Web Development</h3> */}
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h3>Web Development</h3>
+                                <h4>JavaScript</h4>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h3>Brand Identity</h3>
+                                <h4>TypeScript</h4>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h3>Logo Design</h3>
+                                <h4>ReactJs</h4>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h4>NextJs</h4>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h4>Tailwind CSS</h4>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h4>Material UI</h4>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h4>Styled Components</h4>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h4>Chakra UI</h4>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h4>React Query</h4>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h4>Fetch API</h4>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h4>Axios</h4>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h4>GraphQL</h4>
                             </div>
                         </Carousel>
                       </div>
